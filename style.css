@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.logo-container{
+    width: 40px;
+    width: 40px;
+}
+.li-container{
+    color: white;
+    font: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+li:hover {
+    background-color: rgb(169, 162, 162);
+}
+.img-container{
+    width: 400px;
+    height: 400px;
+
+}
+.box1-container{
+  width: 900px;
+  height: 350px;
+  margin: auto;
+  border: 7px;
+  border: 1px solid rgb(155, 157, 152);
+  
+}
+
+
+.carousel-item{
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+}
+.btn-secondary1{
+    margin-left: 100px;
+    font-size: 10px;
+}
+.my-es-cintainer{
+    margin-top: 250px;
+
+}
+.box-containerr{
+    padding: 50px;
+    width: 520px;
+    height: 350px;
+    margin: auto;
+    box-shadow: 4px 4px 4px 5px;
+    border: radius 7px; 
+    text-align: center;
+    margin-top: 15px;
+}
+.input-box{
+    width: 200px;
+    height: 40px;
+    box-shadow: 4px 4px 4px 5px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 10px;
+}
+.messege{
+    width: 220px;
+    height: 70px;
+    box-shadow: 4px 4px 4px 5px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 10px;
+}
+.submit-btn{
+    width: 300px;
+    height: 50px;
+    background-color: gray;
+    margin-top: 10px;
+}
+footer {
+    height: 150px;
+    margin-top: 40px;
+    border: 1px solid gray;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+@media screen and (min-width:320px) and (max-width:747px){
+    .section-container{
+        flex-direction: column;
+    }
+    .box1-containe{
+        width: 600px;
+        height: 500px;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    
+}
